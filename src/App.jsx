@@ -1,9 +1,10 @@
 import './App.css';
+import AgeCalculator from './components/AgeCalculator';
 
 function App() {
   return (
     <div className="App">
-    <h1>This is Our Age Calculator in react.js</h1>
+    <AgeCalculator/>
     </div>
   )
 }
